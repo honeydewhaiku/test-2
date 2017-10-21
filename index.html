@@ -12,7 +12,25 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
       body{
-      background-color:#eff9ff;}
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e8eff4+35,ffd8e7+81,ffd8e7+81,f7f4ed+100 */
+background: rgb(232,239,244); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(232,239,244,1) 35%, rgba(255,216,231,1) 81%, rgba(255,216,231,1) 81%, rgba(247,244,237,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(232,239,244,1) 35%,rgba(255,216,231,1) 81%,rgba(255,216,231,1) 81%,rgba(247,244,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(232,239,244,1) 35%,rgba(255,216,231,1) 81%,rgba(255,216,231,1) 81%,rgba(247,244,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8eff4', endColorstr='#f7f4ed',GradientType=0 ); /* IE6-9 */
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      }
+      
+      .bgimg{
+        position:absolute;
+      background-image:url('https://78.media.tumblr.com/ae94bed3136daa6ce7b0b1a067564d2a/tumblr_oy5j9n1ide1wyarz6o2_250.png');
+      height:100%;
+      width:100%;
+      z-index:2;
+      background-repeat:repeat;
+        background-attachment:fixed;
+     }
       
       
       h1{
@@ -41,16 +59,92 @@
       padding:10px;
     margin:5px;
                 margin-left:40px;}
+      
+                      .col-md-2:hover{
+    background-color:#fff;
+    border: 1px solid #f3d2f7;}
+      
+      .header{
+      border-bottom: 1px solid gray; 
+      margin-bottom:40px;
+        padding:20px;
+      width:100%;
+      height:150px;
+      text-align:center;
+      background-color: #fff;
+        text-align:center;
+      display: inline-block;}
+      
+      .ht{
+      width:900px;
+          position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+      
+      .htext1{
+        margin-right:50px;
+        float:left;
+      }
+      
+      .htext2{
+      text-align:justify;
+                border-left: 1px solid gray;
+              padding-left:50px;
+    font-family:"Times New Roman",serif;
+    font-size:11px;
+    letter-spacing:.75px;
+        width:200px;
+float:left;
+color:gray;
+        margin-right:50px;
+          top: 50%;
+  transform: translateY(-50%);
+      }
+      
+      .himg{
+      max-height:100px;
+        max-width:100px;
+        border: 1px solid gray;
+        border-radius:100px;
+        padding: 5px;
+        margin:10px;
+        float:left;
+          position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+      }
+      
+            div.copy{
+        position:absolute;
+        bottom:10px;
+        right:10px;
+      }
   </style>
   </head>
   <body>
-    <div class="container-fluid">
-      <h1>writings by elliot gavin keenan</h1>
-      <div class="row center-block">
-        <div class="col-md-2"><b>Everything Else</b>, a lyric essay.</div>
-        <div class="col-md-2"><b>On Being Insane</b>, a memoir. </div>
-        <div class="col-md-2">Poetry YouTube channel.</div>
+    <div class="bgimg">
+      <div class="container-fluid">
+        <div class="header">
+          <div class="ht center-block">
+            <div class="htext1"><img src="https://78.media.tumblr.com/a827a9699cc1d342f6d17e55d35ffc0a/tumblr_oy5l6p0woI1wyarz6o1_540.png"
+                class="himg img-responsive"> </div>
+            <div class="htext2"> <b>Elliot Gavin Keenan</b> is a writer based
+              at UCLA.<br>
+              <center> <a href="/about.html"> about me </a> — <a href="/contact.html">
+                  contact </a></center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row center-block">
+          <div class="col-md-2"><b>Everything Else</b>, a lyric essay.</div>
+          <div class="col-md-2"><b>On Being Insane</b>, a memoir. </div>
+          <div class="col-md-2">Poetry YouTube channel.</div>
+        </div>
       </div>
     </div>
+    <div class="copy"> © Elliot Gavin Keenan 2017 — present </div>
   </body>
 </html>
